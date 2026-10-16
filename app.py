@@ -108,7 +108,8 @@ footer { text-align: center; color: #64748b; padding: 20px; font-size: 13px; }
 <header>
 <h1>🛡️ OpportunityShield</h1>
 <p>Check internship and job offers for warning signs.</p>
-<p>Powered by your local Ollama model — no API key.</p>
+<p>AI analysis uses Ollama. Cloud deployments need a reachable Ollama server;
+preliminary checks remain available without one.</p>
 </header>
 
 <main>
@@ -153,7 +154,7 @@ A low score does not prove that an offer is genuine.
 
 {{result}}
 
-<footer>OpportunityShield · FastAPI + Ollama · Runs locally</footer>
+<footer>OpportunityShield · FastAPI + Ollama · AI results require a reachable model</footer>
 </main>
 
 <script>
